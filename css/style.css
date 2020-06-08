@@ -86,26 +86,46 @@ header img {
   padding-bottom: 30px;
 }
 
+.topmenu a {
+  text-decoration: none;
+  color: white;
+}
+
+.topmenu a p {
+  padding-left: 10px;
+  color: gray;
+}
+
 .leftnavbar img {
-  width: 40px;
+  width: 35px;
+}
+
+.leftnavbar .topmenu div {
+  padding-bottom: 10px;
 }
 
 .playlistmenu ul {
   list-style: none;
 }
 
+
+
+#plusicon {
+  text-decoration: none;
+  color: gray;
+}
 .playlistmenu ul li {
   padding: 10px 0;
 }
 
 .playlistmenu ul li a {
   text-decoration: none;
-  color: white;
+  color: gray;
 }
 
 .addsquare {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   background-color: gray;
   color: black;
   font-size: 50px;
@@ -116,7 +136,60 @@ header img {
 
 .install img {
   width: 15px;
+  padding-bottom: 10px;
+  color: gray;
 }
+
+.install p {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  color: gray;
+}
+
+.profilezone hr {
+  margin-right: 20px;
+}
+
+.profilezone .profile img {
+  margin: 10px 0;
+  background-color: gray;
+  border-radius: 50%;
+  padding
+ }
+
+.profilezone .profile p {
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+/* -------main section------ */
+.mainsection {
+  width: calc(100vw - - 300px);
+  height: 1000px;
+  background-color: #000b36;
+}
+
+.topnavbar {
+  display: flex;
+  justify-content: center;
+  padding-left: 300px;
+  padding-top: 90px;
+}
+
+.topitems {
+  display: flex;
+  width: 45%;
+  padding-top: 20px;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.topitems li a {
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+}
+
 
 
 
@@ -129,4 +202,54 @@ footer {
   position: fixed;
   bottom: 0;
   left: 0;
+}
+
+.flexFOOTER {
+  display: flex;
+  justify-content: space-between;
+}
+
+.song {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 90px;
+}
+
+.song img {
+  width: 50px;
+  padding-left: 10px;
+}
+
+.song p {
+  padding-left: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.song p:nth-child(2) {
+  color: gray;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.song a:first-child {
+  margin-left: 80px;
+}
+
+.song a {
+  color: gray;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.player {
+  height: 90px;
+}
+
+.flexbars {
+  display:flex;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
 }
