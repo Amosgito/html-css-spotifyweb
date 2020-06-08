@@ -4,33 +4,68 @@
   box-sizing: border-box;
 }
 
-.flex-container {
+.flex-HEADER {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+body {
+  font-family: "Helvetica";
+}
+
+/* ------header section------ */
 header {
   width: 100%;
-  height: 80px;
-  background-color: black;
+  height: 90px;
+  background-color: rgba(4, 4, 4, 0.9);
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 6;
+}
+
+.upgradebutton {
+  border: 2px solid white;
+  border-radius: 50px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  width: 300px;
+  padding: 13px 30px;
+  margin-right: 20px;
+}
+
+
+/* ------main section-------- */
+.flexNAVLEFT {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .leftnavbar {
   width: 350px;
   height: 100vh;
-  background-color: black;
+  background-color: #040404;
   z-index: 5;
   position: fixed;
   top: 0;
   left: 0;
 }
 
+header img {
+  width: 200px;
+  padding-left: 20px;
+}
+
+
+/* ------footer section---------- */
 footer {
   width: 100%;
-  height: 80px;
-  background-color: gray;
+  height: 90px;
+  background-color: #282828;
   z-index: 10;
   position: fixed;
   bottom: 0;
