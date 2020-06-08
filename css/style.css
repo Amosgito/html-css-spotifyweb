@@ -167,7 +167,7 @@ header img {
   width: calc(100vw - - 300px);
   padding-left: 300px;
   color: white;
-  background-color: #000b36;
+  background-color: #010121;
 }
 
 .topnavbar {
@@ -194,6 +194,8 @@ header img {
 .creatoperte,
 .artistipopolari {
   display: flex;
+  flex-wrap: wrap;
+  padding: 30px 0;
 }
 
 .recentlyplayed img,
@@ -203,8 +205,30 @@ header img {
   padding: 25px;
 }
 
+.mainsection h2 {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.mainsection .subtitle {
+  padding-top: 10px;
+  padding-left: 20px;
+  color: gray;
+  font-weight: bold;
+  font-size: 13px;
+}
 .col {
   text-align: center;
+}
+
+.col h4 {
+  font-weight: bold;
+}
+
+.col p {
+  color: gray;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 
