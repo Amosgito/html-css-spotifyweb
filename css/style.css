@@ -59,8 +59,14 @@ header img {
   align-items: center;
 }
 
+.flexadd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .leftnavbar {
-  width: 350px;
+  width: 300px;
   height: 100vh;
   color: white;
   background-color: #040404;
@@ -70,6 +76,10 @@ header img {
   position: fixed;
   top: 0;
   left: 0;
+}
+
+.menu {
+  padding-top: 20px;
 }
 
 .topmenu {
@@ -91,6 +101,17 @@ header img {
 .playlistmenu ul li a {
   text-decoration: none;
   color: white;
+}
+
+.addsquare {
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  color: black;
+  font-size: 50px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .install img {
