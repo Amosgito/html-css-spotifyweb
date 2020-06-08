@@ -165,14 +165,14 @@ header img {
 /* -------main section------ */
 .mainsection {
   width: calc(100vw - - 300px);
-  height: 1000px;
+  padding-left: 300px;
+  color: white;
   background-color: #000b36;
 }
 
 .topnavbar {
   display: flex;
   justify-content: center;
-  padding-left: 300px;
   padding-top: 90px;
 }
 
@@ -188,6 +188,23 @@ header img {
   text-decoration: none;
   color: gray;
   font-weight: bold;
+}
+
+.recentlyplayed,
+.creatoperte,
+.artistipopolari {
+  display: flex;
+}
+
+.recentlyplayed img,
+.creatoperte img,
+.artistipopolari img {
+  width: 250px;
+  padding: 25px;
+}
+
+.col {
+  text-align: center;
 }
 
 
