@@ -166,6 +166,7 @@ header img {
 .mainsection {
   width: calc(100vw - - 300px);
   padding-left: 300px;
+  padding-bottom: 100px;
   color: white;
   background-color: #141922;
 }
@@ -285,12 +286,72 @@ footer {
 }
 
 .player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 90px;
+}
+
+.player .longbar {
+  background-color: gray;
+  height: 4px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.volume {
+  display: flex;
+  height: 90px;
+  align-items: center;
 }
 
 .flexbars {
   display:flex;
-  height: 90px;
-  justify-content: center;
+  width: 300px;
+  padding-bottom: 10px;
+  justify-content: space-around;
   align-items: center;
+}
+
+.flexbars a {
+  color: white;
+  font-size: 20px;
+}
+
+.flexbars p {
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  padding:inherit: 10px;
+}
+
+.volflex {
+  display: flex;
+  width: 300px;
+  align-items: center;
+}
+
+.volflex a{
+  color: gray;
+  font-size: 15px;
+  padding-right: 15px;
+}
+
+.volflex .volbar {
+  background-color: gray;
+  height: 4px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.overvol {
+  background-color: white;
+  height: 4px;
+  width: 40px;
+  border-radius: 5px;
+  z-index: 999;
+}
+
+.longbar {
+  width: 300px;
 }
