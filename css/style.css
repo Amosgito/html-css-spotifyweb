@@ -8,6 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 body {
@@ -28,6 +29,10 @@ header {
 header img {
   width: 200px;
   padding-left: 20px;
+}
+
+header a {
+  text-decoration: none;
 }
 
 .upgradebutton {
@@ -67,10 +72,10 @@ header img {
 
 .leftnavbar {
   width: 300px;
-  height: 100vh;
+  height: calc(100vh - 90px);
   color: white;
   background-color: #040404;
-  padding-top: 90px;
+  margin-top: 90px;
   padding-bottom: 90px;
   z-index: 5;
   position: fixed;
@@ -106,8 +111,8 @@ header img {
 
 .playlistmenu ul {
   list-style: none;
-  height: 300px;
   overflow-x: hidden;
+  margin-bottom: 50px;
 }
 
 
